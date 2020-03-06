@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <header>
+        <h1>Path of Light Yoga Studio</h1>
+    </header>    
+
+    <nav>
+        <a href="index.html">HOME &nbsp;</a>
+        <a href="schedule.html">SCHEDULE &nbsp;</a>
+        <a href="signup.html">SIGN UP &nbsp;</a>
+        <a href="login.html">LOGIN &nbsp;</a>
+    </nav>
+
+    <main>
+        <div>
+             <h2>Sign Up as Studio Member</h2>
+             <p>Please fill in this form to create an account. Required
+                 information is marked with an asterisk (*).</p>
+        </div>
+            <form action="/sign-in-url" method="POST">
+                <div>
+                     <label for="uname">*Name:</label>
+                     <input type="text" id="uname" name="name"><br>
+                </div>
+                <div>
+                     <label for="umail">*E-mail:</label>
+                     <input type="email" name="mail" id="umail"><br>
+                </div>
+                     <label for="upassword">*Password:</label>
+                     <input type="password" id="upassword" name="password"><br>
+                <div>
+                     <label for="rpassword">*Repeat Password:</label>
+                     <input type="password" id="rpassword" name="rpassword"><br>
+               </div>
+               <div>
+                     <label for="birth">Birthday:</label>
+                      <input type="date" id="birth" name="birth" placeholder="dd-----yyyy"><br>
+              </div>
+              <div>
+                    <label for="uselect">Select your most favorite yoga class:</label>
+                     <select name="uselect" id="uselect" required>
+                          <option value="Gentle Hatha Yoga">Gentle Hatha Yoga</option>
+                          <option value="Vinyasa Yoga">Vinyasa Yoga</option>
+                          <option value="Restorative Yoga">Restorative Yoga</option>
+                     </select><br>
+                    <input type="submit" value="Sign Up">              
+              </div>
+           </form>
+        </div>
+    </main>
+
+    <footer>
+            <p><i><small>Copyright@2020 path of Light Toga Studio <br><a href="mailto:info@pathoflight.com.my">info@pathoflight.com.my</a></small></i></p>
+    </footer>
+</body>
+
+</html>
