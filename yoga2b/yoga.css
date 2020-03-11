@@ -6,6 +6,7 @@ body{
 }
 
 #wrapper{
+
     width: 80%;
     margin-right: auto;
     margin-left: auto;
@@ -28,7 +29,7 @@ h1{
 }
 
 nav{
-    text-align: center;
+    text-align: centr;
     font-weight: bold;
     float: right;
     width: 150px;
@@ -127,7 +128,7 @@ input,select{
 }
 
 #newSubmit{
-    margin-left: 24em;
+    margin-left: 20em;
 }
 
 *{
